@@ -1,4 +1,9 @@
 function happyHolidays(string) {
-  return (string.toEqual) ;"Happy holidays!"
+  return "Happy holidays!"
 }
-function
+function happyHolidaysTo(name) {
+  return "Happy holidays, ${name}!"
+}
+function happyHolidaysTo(holiday, name) {
+  return "Happy ${holiday}, ${name}!"
+}
